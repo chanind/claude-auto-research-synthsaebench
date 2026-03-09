@@ -1,0 +1,14 @@
+[project]
+name = "claude-auto-research-synthsaebench"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "sae-lens>=6.37.6",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.0.2",
+]
