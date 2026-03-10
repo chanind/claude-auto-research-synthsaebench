@@ -1,6 +1,6 @@
 # Letting Claude do Autonomous Research on Improving SAEs
 
-This repository contains the code accompanying the post "Letting Claude Run Wild on Improving SAEs".
+This repository contains the code accompanying the post "Letting Claude do Autonomous Research on Improving SAEs".
 
 We pointed Claude at the [SynthSAEBench-16k](https://decoderesearch.github.io/SAELens/latest/synth_sae_bench/) synthetic SAE benchmark, told it to improve SAE performance (see [TASK.md](TASK.md)), and left it running in a [Ralph Wiggum loop](https://awesomeclaude.ai/ralph-wiggum). By the next morning it had boosted F1 score from 0.88 to 0.95, and within another day — with occasional hints from us — it matched the logistic regression probe ceiling of **0.97 F1**.
 
