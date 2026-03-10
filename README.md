@@ -1,4 +1,4 @@
-# Letting Claude Run Wild on Improving SAEs
+# Letting Claude do Autonomous Research on Improving SAEs
 
 This repository contains the code accompanying the post "Letting Claude Run Wild on Improving SAEs".
 
