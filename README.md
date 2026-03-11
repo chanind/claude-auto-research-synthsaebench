@@ -4,7 +4,7 @@ This repository contains the code accompanying the post "[Letting Claude do Auto
 
 We pointed Claude at the [SynthSAEBench-16k](https://decoderesearch.github.io/SAELens/latest/synth_sae_bench/) synthetic SAE benchmark, told it to improve SAE performance (see [TASK.md](TASK.md)), and left it running in a [Ralph Wiggum loop](https://awesomeclaude.ai/ralph-wiggum). By the next morning it had boosted F1 score from 0.88 to 0.95, and within another day — with occasional hints from us — it matched the logistic regression probe ceiling of **0.97 F1**.
 
-The SAE architecture that resulted is in the [autoresearch](autoresearch/) directory along with tests written by Claude, and (one version) of the original task specification is in [TASK.md](TASK.md). We ran claude code with the simple prompt "Follow the instructions in TASK.md."
+The SAE architecture that resulted is in the [autoresearch](autoresearch/) directory along with tests written by Claude, and (one version) of the original task specification is in [TASK.md](TASK.md). We ran claude code with the simple prompt "Follow the instructions in TASK.md." There's a sample sprint report that Claude generated from a sprint where it explored decreasing K during training in [sample_sprint_report.pdf](https://github.com/chanind/claude-auto-research-synthsaebench/blob/main/sample_sprint_report.pdf)
 
 ## Results
 
